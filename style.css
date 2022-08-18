@@ -39,6 +39,10 @@ footer {
     margin-top: 82px;
 }
 
+footer a {
+    color: black;
+}
+
 header {
     align-items: center;
     display: flex;
@@ -88,7 +92,17 @@ header>nav>a {
     height: 56px;
     justify-content: center;
     padding: 14px 32px 15px;
-    width: 179px;
+    width: 181px;
+    box-shadow: 1px 2px 6px #265a48;
+    
+}
+
+.comece:hover {
+    border: 1px solid #265a48;
+}
+
+.comece:active {
+    background-color: #265a48;
 }
 
 .comece > span {
