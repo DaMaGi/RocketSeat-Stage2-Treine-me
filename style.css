@@ -39,7 +39,7 @@ footer {
     margin-top: 82px;
 }
 
-.top-nav {
+header {
     align-items: center;
     display: flex;
     font-family: "Mulish", sans-serif;
@@ -48,14 +48,14 @@ footer {
     font-size: 18px;
 }
 
-.top-nav>span {
+header>nav {
     display: flex;
     gap: 48px;
     justify-content: flex-end;
     padding: 0 16px;
 }
 
-.top-nav>span>a {
+header>nav>a {
     color: #1F1534;
 }
 
