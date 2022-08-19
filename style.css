@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 body {
-    max-width: 1280px;
     margin: auto;
+    max-width: 1280px;
+    background-image: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
 }
 
 main {
@@ -25,6 +27,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    font-weight: 700;
+}
+
 p {
     color: #7D7987;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -35,31 +41,34 @@ p {
 
 footer {
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
-    text-align: center;
     margin-top: 82px;
+    padding-bottom: 30px;
+    position: relative;
+    text-align: center;
 }
 
 footer a {
     color: black;
 }
 
-header {
+nav {
     align-items: center;
     display: flex;
     font-family: "Mulish", sans-serif;
-    justify-content: space-between;
-    margin: 65px 153px 0 122px;
     font-size: 18px;
+    justify-content: space-between;
+    margin: 0 153px 0 122px;
+    padding-top: 65px;
 }
 
-header>nav {
+nav>span {
     display: flex;
     gap: 48px;
     justify-content: flex-end;
     padding: 0 16px;
 }
 
-header>nav>a {
+nav>span>a {
     color: #1F1534;
 }
 
@@ -72,6 +81,7 @@ header>nav>a {
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
+    margin-right: 24px;
 }
 
 .aqua {
@@ -111,7 +121,7 @@ header>nav>a {
 }
 
 .balls {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right: 0;
 }
